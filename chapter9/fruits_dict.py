@@ -32,3 +32,7 @@ for key, value in fruit.items():
 #fruit辞書から"apple"の値を取り出して削除する
 fruit.pop("apple")
 print(fruit)
+
+#辞書から任意の要素を取り出す
+fruit.popitem()
+print(fruit)
