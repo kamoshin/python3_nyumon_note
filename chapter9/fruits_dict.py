@@ -28,3 +28,7 @@ print(list(fruit.items()))
 #辞書からキーと値を取り出して出力する
 for key, value in fruit.items():
     print(f"{key}が{value}個")
+
+#fruit辞書から"apple"の値を取り出して削除する
+fruit.pop("apple")
+print(fruit)
