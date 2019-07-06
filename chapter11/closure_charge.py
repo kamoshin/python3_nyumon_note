@@ -4,7 +4,7 @@ def charge(price):
         return price * num
     return calc
 
-child = charge(400)     #childのpriceに400を代入している(子供料金の専用関数になった)
+child = charge(300)     #childのpriceに300を代入している(子供料金の専用関数になった)
 adult = charge(1000)    #adultのpriceに1000を代入している(大人料金の専用関数になった)
 
 price1 = child(3)       #子供の専用関数に3人(引数)を渡す

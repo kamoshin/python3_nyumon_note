@@ -16,4 +16,4 @@ if age < 16:                        #16歳未満ならばchild()で計算する
 else:                               #17歳以上ならばadult()で計算する
     price = calc(adult, num)
 
-print(f"{age}歳、{num}人は{price}円です。")
+print(f"{age}歳、{num}人は{price}円です")
