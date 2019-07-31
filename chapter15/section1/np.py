@@ -1,0 +1,28 @@
+import numpy as np
+a = np.array([1,2,3])
+data = (1,2,3)
+b = np.array(data)      #カンマは取り除かれる
+print(a,b)
+print(type(a))
+print(a.dtype)
+
+a = np.array([1, 1.5, 2])
+print(a)
+b = np.array(["1", 2, 3])
+print(b)
+c = np.array([True, False, 1.5])
+print(c)
+a = np.array([1, 1.5, 2], dtype=int)
+print(a)
+b = np.array([1,2,3], dtype=float)
+print(b)
+c = np.array([1, 1.5, 2], dtype=complex)
+print(c)
+d = np.array([1, 1.5, 2], dtype="<U")
+print(d)
+e = np.array([9.123, 10.5, 2.567], dtype="U4")
+print(e)
+
+a_int = np.array([0,1,2,3,4,5])
+a_float = np.array(a_int, dtype=float)
+print(a_float)
